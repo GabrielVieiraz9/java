@@ -3,7 +3,7 @@ package turma72;
 public class MyFirstApplication {
 
 	public static void main(String[] args) {
-		//public = público; static é fixo, void = não retorna um valor
+		//public = público; static é fixo, void = não retorna um valor, e os argumentos da função
 		// TODO Auto-generated method stub
 		String nome;
 		Integer idade;
