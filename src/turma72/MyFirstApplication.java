@@ -10,7 +10,7 @@ public class MyFirstApplication {
 		nome = "Gabriel";
 		idade = 1;
 		
-		System.out.println("Hello World, essa é a primeira aplicação de " + nome + " " + idade);
+		System.out.println("Hello World, essa é a primeira aplicação de " + nome + " e idade igual a: " + idade);
 	}
 
 }
