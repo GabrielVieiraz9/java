@@ -75,6 +75,7 @@ public class ex06 {
 				break;
 		
 		}
+		scanner.close();
 	}
 
 }

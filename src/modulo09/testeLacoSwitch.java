@@ -35,5 +35,6 @@ public class testeLacoSwitch {
 				break;
 		
 		}
+		scanner.close();
 	}
 	}

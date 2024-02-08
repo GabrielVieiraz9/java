@@ -48,6 +48,6 @@ public class ex07 {
 			break;
 		
 	}
-
+		scanner.close();
 }
 }

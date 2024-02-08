@@ -69,7 +69,7 @@ public class ex04 {
 		} else {
 			System.out.println("Digite um valor valido: ");
 		}
-		
+		scanner.close();
 	}
 
 }

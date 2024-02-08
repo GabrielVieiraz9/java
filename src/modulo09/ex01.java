@@ -25,11 +25,7 @@ public class ex01 {
 			System.out.println("A Soma de A + B é Igual a C");
 		} else {
 			System.out.println("A Soma de A + B é Menor do que C");
-		}
-		
-		
-		
-		
+		}	
+		scanner.close();
 	}
-
 }

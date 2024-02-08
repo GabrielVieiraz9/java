@@ -22,7 +22,7 @@ public class ex02 {
 	} else {
 		System.out.println("O Número " + numero + " é ímpar e positivo");
 	}
-	
+	scanner.close();
 }
 
 }

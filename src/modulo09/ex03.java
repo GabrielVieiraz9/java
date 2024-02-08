@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ex03 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     
@@ -47,7 +48,7 @@ public class ex03 {
     } else {
     	System.out.println(nome + " não está apto para doar sangue!");
     }
-    	
+    scanner.close();
   }
  	
 }
