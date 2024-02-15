@@ -1,0 +1,10 @@
+package modulo12;
+
+public class DadosEx02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
