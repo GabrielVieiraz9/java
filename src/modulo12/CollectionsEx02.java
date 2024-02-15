@@ -7,8 +7,9 @@ public class CollectionsEx02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> numeros = new ArrayList<Integer>();
 		Scanner scanner = new Scanner(System.in);
+		
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
 		
 		int numero, aim;
 		
@@ -22,6 +23,7 @@ public class CollectionsEx02 {
 		aim = scanner.nextInt();
 		
         int index = numeros.indexOf(aim); //método para achar o índice correspondente dado um número
+        
         if (index != -1) {
             System.out.println("O número " + aim + " está localizado na posição: " + index);
         } else {

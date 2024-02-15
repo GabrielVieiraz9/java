@@ -10,6 +10,7 @@ public class CollectionsEx03 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
+		
 		Set<Integer> colecaoNumeros = new HashSet<Integer>();
 		int numero;
 		
@@ -21,6 +22,7 @@ public class CollectionsEx03 {
 		
         System.out.print("\n Listar dados do Set: \n");
         Iterator<Integer> iNumerosOrdenados = colecaoNumeros.iterator();
+        
         while (iNumerosOrdenados.hasNext()) {
             System.out.println(iNumerosOrdenados.next());
         }

@@ -1,6 +1,5 @@
 package modulo12;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -8,8 +7,6 @@ public class object01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Integer inteiro = 2;
-		
 		ArrayList<Double> notas = new ArrayList<Double>();
 		
 		Double y = Double.valueOf(8);
