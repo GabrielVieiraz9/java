@@ -27,6 +27,7 @@ public class testeLacoEncadeado {
 		}
 		
 		System.out.printf("A sua média é: " + media);
+		scanner.close();
 	}
 
 }

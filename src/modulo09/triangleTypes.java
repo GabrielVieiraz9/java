@@ -21,11 +21,11 @@ public class triangleTypes {
         	   control = "C";
            }
            
-           
            System.out.println("Digite o valor do lado " + control + ": ");
            double lados = scanner.nextDouble();
            lista.add(lados);
         }
+        
         Collections.sort(lista);
         Collections.reverse(lista);
         scanner.close();

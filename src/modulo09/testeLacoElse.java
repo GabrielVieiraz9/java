@@ -24,6 +24,7 @@ public class testeLacoElse {
 		}
 		
 		System.out.printf("A sua média é: " + media);
+		scanner.close();
 	}
 
 }
