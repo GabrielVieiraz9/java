@@ -12,7 +12,7 @@ public class ex01 {
         int[] vetor = new int[tamanho];
         
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println("Digite" + i + ":");
+            System.out.println("Digite o " + (i+1) + "° número:");
             vetor[i] = scanner.nextInt();
         }
         
