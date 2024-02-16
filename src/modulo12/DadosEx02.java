@@ -38,6 +38,12 @@ public class DadosEx02 {
                     nome = scanner.nextLine(); // Use nextLine() para ler toda a linha
                     pilha.push(nome); // Adiciona o livro no topo da pilha
                     System.out.println("Livro '" + nome + "' adicionado na pilha.");
+                    
+                    System.out.println("Deseja continuar? (S/N)");
+                    menu = scanner.nextLine();
+                    if (!menu.equalsIgnoreCase("S")) {
+                        continuar = false;
+                    }
                     break;
 
                 case 2:
@@ -53,32 +59,39 @@ public class DadosEx02 {
                             System.out.println(listaAuxiliar.get(i));
                         }
                     }
+                    
+                    System.out.println("Deseja continuar? (S/N)");
+                    menu = scanner.nextLine();
+                    if (!menu.equalsIgnoreCase("S")) {
+                        continuar = false;
+                    }
                     break;
 
                 case 3:
                     if (pilha.isEmpty()) {
                         System.out.println("A Pilha está vazia!");
                     } else {
-                        System.out.println("Retirar Livro da pilha:");
-                        System.out.println("Digite o nome:\n");
-                        nome = scanner.nextLine();
-                        if (pilha.remove(nome)) {
-                            System.out.println("Livro '" + nome + "' retirado da pilha.");
-                        } else {
-                            System.out.println("Livro '" + nome + "' não encontrado na pilha.");
-                        }
+                        String livroRemovido = pilha.pop(); // Remove o último livro adicionado
+                        System.out.println("Livro '" + livroRemovido + "' retirado da pilha.");
+                    }
+                    
+                    System.out.println("Deseja continuar? (S/N)");
+                    menu = scanner.nextLine();
+                    if (!menu.equalsIgnoreCase("S")) {
+                        continuar = false;
                     }
                     break;
 
                 default:
                     System.out.println("Opção inválida.");
+                    System.out.println("Deseja continuar? (S/N)");
+                    menu = scanner.nextLine();
+                    if (!menu.equalsIgnoreCase("S")) {
+                        continuar = false;
+                    }
             }
 
-            System.out.println("Deseja voltar para o menu? (S/N)");
-            menu = scanner.nextLine();
-            if (!menu.equalsIgnoreCase("S")) {
-                continuar = false;
-            }
+
         } while (continuar);
 
         scanner.close(); // Fechando o scanner

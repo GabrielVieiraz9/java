@@ -41,7 +41,7 @@ public class DadosEx01 {
                     nome = scanner.nextLine();
                     fila.offer(nome);
                     System.out.println("Cliente " + nome + " adicionado na fila.\n");
-                    System.out.println("Deseja voltar para o menu? (S/N)");
+                    System.out.println("Deseja continuar? (S/N)");
                     menu = scanner.next();
                     if (!menu.equalsIgnoreCase("S")) {
                         continuar = false;
@@ -57,7 +57,7 @@ public class DadosEx01 {
                             System.out.println(cliente);
                         }
                     }
-                    System.out.println("Deseja voltar para o menu? (S/N)");
+                    System.out.println("Deseja continuar? (S/N)");
                     menu = scanner.next();
                     if (!menu.equalsIgnoreCase("S")) {
                         continuar = false;
@@ -78,7 +78,7 @@ public class DadosEx01 {
                             System.out.println("Cliente " + nome + " não encontrado na fila.");
                         }
                     }
-                    System.out.println("Deseja voltar para o menu? (S/N)");
+                    System.out.println("Deseja continuar? (S/N)");
                     menu = scanner.next();
                     if (!menu.equalsIgnoreCase("S")) {
                         continuar = false;
@@ -87,7 +87,7 @@ public class DadosEx01 {
 
                 default:
                     System.out.println("Opção inválida.");
-                    System.out.println("Deseja voltar para o menu? (S/N)");
+                    System.out.println("Deseja continuar? (S/N)");
                     menu = scanner.next();
                     if (!menu.equalsIgnoreCase("S")) {
                         continuar = false;
